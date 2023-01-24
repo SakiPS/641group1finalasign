@@ -214,6 +214,7 @@ div#heroText {
 }
 div#heroText h2 { 
     color: white;
+    font-size: 2.4rem;
     line-height: 1.4;
 }
 #heroText span{
