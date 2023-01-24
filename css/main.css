@@ -245,7 +245,7 @@ a.mButton {
     display: block;
     margin: 1.4rem auto 2.5rem;
     text-align: center;
-    width: 95%;
+    width: 240px;
 }
 article { padding: 1rem 8% 1rem; }
 article#gReview { text-align: center; }
