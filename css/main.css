@@ -27,7 +27,7 @@
     Project: Suzanne Tulenko, DMD website
     Ver: 3.0
     Last Updated: 1/19/2022
-    Color and typography: pages/styleGuide.html
+    Color and typography info: pages/styleGuide/styleGuide.html
 ********************************************/
 
 /********************************************
@@ -100,7 +100,7 @@ h1 {
 }
 h2 {
     color: #00736D;
-    font-size: 2.4rem;
+    font-size: 3rem;
     line-height: 1.5;
 }
 h3 {
@@ -130,7 +130,7 @@ a.button {
     color: white;
     font-size: 1.5rem;
     height: 57px;
-    padding: 1.5rem 2.5rem;
+    padding: 2rem 2rem;
     text-decoration: none;
 }
 a.button:hover {
@@ -156,7 +156,7 @@ a.hButton {
     display: block;
     margin: 1.4rem auto 0;
     text-align: center;
-    width: 95%;
+    width: 240px;
 }
 a.logoName {
     color: #00736D;
@@ -252,10 +252,6 @@ article.greenBack { background-image: linear-gradient(#D1EEF5, #6DCFCA); }
 main article >ul {
     list-style: disc;
     margin: 0rem 1rem 2rem 3rem;
-}
-#home main h2, main.subPage h2 {
-    color: #00736D;
-    font-size: 3rem;
 }
 main h3 {
     line-height: 1.3;
@@ -455,8 +451,9 @@ section#hoursOp { padding: 1rem 0 1rem; }
 @media screen and (min-width:750px) {
 /*HEADER*/
 /* call icon or button*/
-    a.button {
+    a.button { 
         font-size: 1.8rem;
+        padding: 1.5rem 2.5rem;
     }
     a#callButton {
         display: block;
