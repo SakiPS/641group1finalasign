@@ -130,7 +130,7 @@ a.button {
     color: white;
     font-size: 1.5rem;
     height: 57px;
-    padding: 1.75rem 2.5rem;
+    padding: 2rem 2.5rem;
     text-decoration: none;
 }
 a.button:hover {
@@ -453,7 +453,10 @@ section#hoursOp { padding: 1rem 0 1rem; }
 @media screen and (min-width:750px) {
 /*HEADER*/
 /* call icon or button*/
-    a.button { font-size: 1.8rem; }
+    a.button {
+        font-size: 1.8rem;
+        padding: 2rem 2.5rem;
+    }
     a#callButton {
         display: block;
         margin: 0;
