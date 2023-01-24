@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Style guide</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="../css/reset.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <style>
+            html { font-size: 10px; }
+            body {
+                font-family: 'Comfortaa', cursive;
+                margin: 0 3rem 0;
+                line-height: 1.4;
+            }
+            h1 {
+                font-size: 3rem;
+                padding: 3rem 0 3rem;
+                border-bottom: 1px solid lightgray;
+                font-weight: 600;
+                color: #00736D;
+            }
+            h1 >em {
+                font-size: 4rem;
+                padding-right: 2rem;
+            }
+            h2 {
+                font-size: 2rem;
+                font-weight: 600;
+                padding-bottom: 2rem;
+                color: #00736D;
+            }
+            section { padding: 3rem 0 3rem; }
+/*            Color*/
+            ul#color {
+                list-style: none;
+                display: flex;
+                gap: 2rem;
+            }
+            #color li { width: 150px; }
+            p.box {
+                border: 1px solid #000;
+                width: 80px;
+                height: 80px;
+            }
+            p.discription {
+                padding: 1rem 0 1rem;
+                font-size: 1.4rem;
+            }
+            #hColor { 
+                background-color: #00736D;
+                color: white;}
+            #pColor {
+                background-color: black;
+                color: white;
+            }
+            #sColor {background-image: linear-gradient(#D1EEF5, #6DCFCA);}
+            #bColor { background-color: #6DCFCA; }
+/*            Typography*/
+            #typo li { padding-bottom: 2rem; }
+            #mainTypo {
+                font-size: 3rem;
+                font-weight: 400;
+            }
+            #mainSubTypo {
+                font-size: 2.4rem;
+                font-weight: 400;
+            }
+            #mainTextTypo {
+                font-size: 1.6rem;
+                font-weight: 400;
+            }
+            #headerTypo {
+                font-size: 4.4rem;
+                font-weight: 700;
+            }
+            #headerSubTypo {
+                font-size: 2.8rem;
+                font-weight: 600;
+            }
+            #buttonTypo {
+                font-size: 1.8rem;
+                font-weight: 700;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><em>Style Guide</em> for Suzanne Tulenko, DMD</h1>
+        <section>
+            <h2>color</h2>
+            <ul id="color">
+                <li>
+                    <p class="box" id="hColor">#00736D</p>
+                    <p class="discription">header (h1,h2), footer background, button (main), link, icon</p>
+                </li>
+                <li>
+                    <p class="box" id="pColor">black</p>
+                    <p class="discription">text(p)</p>
+                </li>
+                <li>
+                    <p class="box" id="sColor">#D1EEF5, #6DCFCA</p>
+                    <p class="discription">background color for articles</p>
+                </li>
+                <li>
+                    <p class="box" id="bColor">#6DCFCA</p>
+                    <p class="discription">button (header)</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Typography</h2>
+            <ul id="typo">
+                <li id="mainTypo">Main Heading (h1) : Comfortaa', cursive 30px 400</li>
+                <li id="mainSubTypo">Main Sub Heading (h2) : Comfortaa', cursive 24px 400</li>
+                <li id="mainTextTypo">Main Text : Comfortaa', cursive 16px 400</li>
+                <li id="headerTypo">Header heading (h1) : Text Comfortaa', cursive 44px 700</li>
+                <li id="headerSubTypo">Header Sub heading (h1) : Text Comfortaa', cursive 28px 600</li>
+                <li id="buttonTypo">Button : Comfortaa', cursive 18px 700</li>
+            </ul>
+        </section>
+    </body>
+</html>
